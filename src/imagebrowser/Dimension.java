@@ -2,8 +2,8 @@ package imagebrowser;
 
 public class Dimension {
     
-    private final int width;
-    private final int height;
+    final int width;
+    final int height;
 
     public Dimension(int width, int height) {
         this.width = width;
